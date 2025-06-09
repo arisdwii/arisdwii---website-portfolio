@@ -10,6 +10,7 @@ const projectItemWeb = document.querySelector(".projects-items-web");
 window.addEventListener("load", () => {
   if (loaderSection) {
     loaderSection.style.transform = "translateY(-100%)";
+    document.body.style.overflow = "";
   }
 });
 
