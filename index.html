@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Hai, saya Aris Dwi. Seorang front-end developer dan graphic designer yang berfokus pada desain modern dan pengembangan web responsif.">
+    <meta property="og:title" content="Portfolio Aris Dwi – Front-End Developer & Graphic Designer" />
+
+    <title>arisdwii - frontend developer & graphic designer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" sizes="48x48" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <h1 class="hero-title">Hi, I'm Aris Dwi</h1>
+                <p class="hero-subtitle">I'm a
+                    <span class="hero-roles">
+                        <span class="text-slide">
+                            <span class="role">Frontend Developer</span>
+                            <span class="role">Graphic Designer</span>
+                        </span>
+                    </span>
+                </p>
+                <button type="button" class="hero-cta">View My Portfolio <span>↓</span></button>
+            </div>
+        </section>
+
+        <section class="project-toggle">
+            <div class="container project-container">
+                <div class="project-toggle-buttons">
+                    <button class="project-toggle-button btn-toggle-webite active" data-index="0">Website
+                        Development</button>
+                    <button class="project-toggle-button btn-toggle-design" data-index="1">Graphic Designer</button>
+                    <span class="line-toggle-button"></span>
+                </div>
+
+                <div class="projects-slider">
+                    <div class="slider">
+                        <!-- Web Projects -->
+                        <section class="projects projects-web">
+                            <div class="projects-tools">
+                                <h2 class="projects-heading">Tools</h2>
+                                <div class="projects-tools-icons">
+                                    <!-- HTML Icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"
+                                        viewBox="0 0 128 128">
+                                        <path fill="#e44d26"
+                                            d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198l-45.019 12.48z" />
+                                        <path fill="#f16529" d="m64 116.8l36.378-10.086l8.559-95.878H64z" />
+                                        <path fill="#ebebeb"
+                                            d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692l3.382 37.927H64zm0 35.743l-.061.017l-15.327-4.14l-.979-10.975H33.816l1.928 21.609l28.193 7.826l.063-.017z" />
+                                        <path fill="#fff"
+                                            d="M63.952 52.455v13.763h16.947l-1.597 17.849l-15.35 4.143v14.319l28.215-7.82l.207-2.325l3.234-36.233l.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092l.628-6.978l.329-3.692z" />
+                                    </svg>
+
+                                    <!-- CSS Icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"
+                                        viewBox="0 0 128 128">
+                                        <path fill="#1572b6"
+                                            d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754l-45.243 12.543z" />
+                                        <path fill="#33a9dc" d="m64.001 117.062l36.559-10.136l8.601-96.354h-45.16z" />
+                                        <path fill="#fff"
+                                            d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711l-3.4 38.114h-30.95z" />
+                                        <path fill="#ebebeb"
+                                            d="m64.083 87.349l-.061.018l-15.403-4.159l-.985-11.031H33.752l1.937 21.717l28.331 7.863l.063-.018z" />
+                                        <path fill="#fff"
+                                            d="m81.127 64.675l-1.666 18.522l-15.426 4.164v14.39l28.354-7.858l.208-2.337l2.406-26.881z" />
+                                        <path fill="#ebebeb"
+                                            d="M64.048 23.435v13.831H30.64l-.277-3.108l-.63-7.012l-.331-3.711zm-.047 27.996v13.831H48.792l-.277-3.108l-.631-7.012l-.33-3.711z" />
+                                    </svg>
+
+                                    <!-- JS Icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                        <path fill="#f5de19" d="M2 2h28v28H2z" />
+                                        <path
+                                            d="M20.809 23.875a2.87 2.87 0 0 0 2.6 1.6c1.09 0 1.787-.545 1.787-1.3c0-.9-.716-1.222-1.916-1.747l-.658-.282c-1.9-.809-3.16-1.822-3.16-3.964c0-1.973 1.5-3.476 3.853-3.476a3.89 3.89 0 0 1 3.742 2.107L25 18.128A1.79 1.79 0 0 0 23.311 17a1.145 1.145 0 0 0-1.259 1.128c0 .789.489 1.109 1.618 1.6l.658.282c2.236.959 3.5 1.936 3.5 4.133c0 2.369-1.861 3.667-4.36 3.667a5.06 5.06 0 0 1-4.795-2.691Zm-9.295.228c.413.733.789 1.353 1.693 1.353c.864 0 1.41-.338 1.41-1.653v-8.947h2.631v8.982c0 2.724-1.6 3.964-3.929 3.964a4.085 4.085 0 0 1-3.947-2.4Z" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <section class="projects-list">
+                                <h2 class="projects-heading">Latest Project</h2>
+
+                                <div class="projects-items projects-items-web">
+                                    <article class="project-card">
+                                        <a href="">
+                                            <div class="project-img-wrapper">
+                                                <img src="https://picsum.photos/300/200" alt="" class="project-card-img"
+                                                    draggable="false">
+                                            </div>
+                                            <h3 class="project-card-title">-card-title 1</h3>
+                                        </a>
+                                    </article>
+
+                                    <article class="project-card">
+                                        <a href="">
+                                            <div class="project-img-wrapper">
+                                                <img src="https://picsum.photos/300/200" alt="" class="project-card-img"
+                                                    draggable="false">
+                                            </div>
+                                            <h3 class="project-card-title">Project 2</h3>
+                                        </a>
+                                    </article>
+
+                                    <article class="project-card">
+                                        <a href="">
+                                            <div class="project-img-wrapper">
+                                                <img src="https://picsum.photos/300/200" alt="" class="project-card-img"
+                                                    draggable="false">
+                                            </div>
+                                            <h3 class="project-card-title">Project 3</h3>
+                                        </a>
+                                    </article>
+                                </div>
+
+                                <a href="https://github.com/arisdwii?tab=repositories" target="_blank"
+                                    class="btn-more-web">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M12.001 2c-5.525 0-10 4.475-10 10a9.99 9.99 0 0 0 6.837 9.488c.5.087.688-.213.688-.476c0-.237-.013-1.024-.013-1.862c-2.512.463-3.162-.612-3.362-1.175c-.113-.288-.6-1.175-1.025-1.413c-.35-.187-.85-.65-.013-.662c.788-.013 1.35.725 1.538 1.025c.9 1.512 2.337 1.087 2.912.825c.088-.65.35-1.087.638-1.337c-2.225-.25-4.55-1.113-4.55-4.938c0-1.088.387-1.987 1.025-2.687c-.1-.25-.45-1.275.1-2.65c0 0 .837-.263 2.75 1.024a9.3 9.3 0 0 1 2.5-.337c.85 0 1.7.112 2.5.337c1.913-1.3 2.75-1.024 2.75-1.024c.55 1.375.2 2.4.1 2.65c.637.7 1.025 1.587 1.025 2.687c0 3.838-2.337 4.688-4.562 4.938c.362.312.675.912.675 1.85c0 1.337-.013 2.412-.013 2.75c0 .262.188.574.688.474A10.02 10.02 0 0 0 22 12c0-5.525-4.475-10-10-10" />
+                                    </svg>
+                                    More Projects
+                                </a>
+                            </section>
+                        </section>
+
+                        <section class="projects projects-design">
+                            <div class="projects-tools">
+                                <h2 class="projects-heading">Tools</h2>
+                                <div class="projects-tools-icons">
+                                    <!-- Canva Icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"
+                                        viewBox="0 0 128 128">
+                                        <g fill="#00c4cc">
+                                            <path
+                                                d="M59.39.152c-.484.051-1.995.23-3.328.387c-5.374.613-11.468 2.227-16.816 4.48C19.891 13.106 5.324 30.849 1.305 51.2C.359 56.04.129 58.418.129 64c0 7.195.715 12.16 2.61 18.434c6.195 20.53 22.323 36.632 42.906 42.851c6.195 1.871 11.187 2.586 18.355 2.586c7.195 0 12.16-.715 18.434-2.61c20.53-6.195 36.632-22.323 42.851-42.906c1.871-6.195 2.586-11.187 2.586-18.355c0-3.047-.152-6.527-.332-7.809c-2.074-14.796-8.168-27.238-18.328-37.402C99.07 8.703 86.68 2.586 72.19.512c-1.996-.282-11.238-.54-12.8-.36m-20.863 40.32c1.36.41 1.996.794 2.918 1.715c1.793 1.82 2.203 2.817 2.203 5.555c0 2.051-.078 2.434-.691 3.508c-1.18 1.996-3.918 3.84-5.812 3.89c-1.333.028-1.278-.562.18-2.097c1.945-2.023 2.226-2.79 2.226-5.813c-.024-2.917-.383-3.914-1.739-4.734c-1.128-.691-2.355-.64-4.148.203c-4.66 2.23-9.703 9.653-11.672 17.258c-2.613 10.137 2.02 18.25 9.649 16.867c2.226-.41 6.425-2.558 8.246-4.25c1.508-1.379 1.508-1.406 1.66-3.12c.336-3.587 2.867-7.169 6.25-8.833c1.558-.77 1.945-.844 4.043-.844c1.996 0 2.457.102 3.43.637c3.097 1.77 2.457 5.89-.895 5.89c-1.945 0-2.945-1-1.535-1.534c1.383-.512.867-2.434-.742-2.868c-1.895-.488-4.047.793-5.403 3.25c-1.64 2.97-1.715 6.504-.156 8.114c1.512 1.613 3.406.336 4.867-3.329c.766-1.867 1.867-2.867 3.149-2.867c1.125 0 1.332.692.843 2.793c-.718 3.25-.23 4.094 1.793 3.098c.664-.309 1.766-1.023 2.43-1.535l1.254-1l.848-4.43c.922-4.965 1.277-5.633 3.172-5.988c1.82-.336 2.23.562 1.562 3.402l-.36 1.59l1.333-1.36c3.148-3.226 7.015-4.812 8.347-3.48c.715.715.637 1.613-.386 4.785c-.485 1.512-1.153 3.895-1.457 5.25c-.461 2.047-.489 2.535-.23 2.868c.82.972 3.327-.028 5.554-2.204l1.305-1.277l.156-2.844c.152-3.277.457-4.453 1.328-5.504c.82-.972 2.305-1.687 3.098-1.484c.793.207.793.973.078 3.227c-1 3.097-.895 10.238.129 10.238c.41 0 2.507-2.2 3.84-4.043l.996-1.36l-.793-.816c-1.383-1.46-1.715-2.406-1.715-4.789c0-1.738.129-2.379.562-3.227c.719-1.328 1.844-2.3 3.176-2.687c1.406-.434 3.148.281 3.863 1.562c.719 1.305.54 4.223-.383 6.223l-.664 1.457h.895c1.23 0 1.715-.305 3.918-2.379c1.152-1.101 2.484-2.05 3.48-2.511c3.918-1.84 8.528-.895 9.293 1.921c.64 2.254-.765 3.84-3.226 3.66c-1.766-.128-2.098-.59-1.074-1.456c1.843-1.54 0-3.508-2.637-2.793c-1.434.386-3.047 1.996-3.89 3.867c-1.692 3.738-.794 8.14 1.636 8.14c.973 0 2.691-1.921 3.355-3.789c.793-2.152 2.457-3.507 3.711-3.02c.692.255.743.946.309 3.122c-.488 2.383-.563 4.61-.18 5.633c.153.382.614 1.101 1.051 1.586c.816.921.844 1.254.152 1.691c-.332.23-.77.129-1.843-.46c-1.485-.77-2.766-2.153-3.227-3.458l-.281-.766l-1.024.766c-.59.41-1.511.871-2.047 1.023c-2.125.563-4.738-.894-5.964-3.351c-.489-.95-.641-3.738-.282-4.813c.204-.59.204-.59-.617-.18c-.433.231-1.355.485-2.07.563c-1.18.13-1.36.258-2.535 1.742c-1.664 2.07-4.61 4.864-5.813 5.454c-2.558 1.277-3.402.918-4.07-1.72l-.461-1.765l-1.102.973c-1.406 1.23-4.222 2.715-5.836 3.074c-1.535.332-3.175-.156-3.84-1.18c-.995-1.535-.663-4.785.922-9.164c1.176-3.25.333-3.3-2.636-.203c-2.203 2.328-3.149 3.992-3.762 6.578c-.64 2.688-1.41 3.66-3.148 4.07c-1.051.231-1.54-.41-1.332-1.816l.152-1.129l-.973.668c-1.383.946-3.125 1.817-4.328 2.149s-2.789-.024-3.172-.692c-.691-1.175-.691-1.175-1.765-.332c-2.332 1.895-5.66 1.356-7.348-1.152l-.54-.793l-1.687 1.562c-4.867 4.454-10.957 6.45-15.464 5.067c-5.735-1.738-8.907-6.656-8.856-13.746c.024-7.117 3.172-14.617 8.473-20.172c2.996-3.125 5.812-4.969 8.68-5.66c2.07-.512 3.328-.485 5.296.129zm0 0" />
+                                            <path
+                                                d="M90.418 58.676c-.563.562-.356 2.816.36 4.25c.359.742.742 1.332.87 1.332c.102 0 .332-.59.512-1.309c.64-2.66-.512-5.504-1.742-4.273m0 0" />
+                                        </g>
+                                    </svg>
+
+                                    <!-- Figma Icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"
+                                        viewBox="0 0 128 128">
+                                        <path fill="#0acf83"
+                                            d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129m0 0" />
+                                        <path fill="#a259ff"
+                                            d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5m0 0" />
+                                        <path fill="#f24e1e"
+                                            d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5m0 0" />
+                                        <path fill="#ff7262"
+                                            d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0" />
+                                        <path fill="#1abcfe"
+                                            d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5S76.6 43 88.5 43S110 52.6 110 64.5m0 0" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="projects-list">
+                                <h2 class="projects-heading">Latest Project</h2>
+
+                                <div class="projects-items projects-items-design">
+                                    <article class="project-card">
+                                        <a
+                                            href="https://www.canva.com/design/DAGpTTv42Mk/f3P028CjwV2_CYErRMcO6Q/edit?utm_content=DAGpTTv42Mk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                                            <div class="project-img-wrapper">
+                                                <img src="images/SNACK SMART.png" alt="SNACK SMART Design"
+                                                    class="project-card-img" draggable="false">
+                                            </div>
+                                            <h3 class="project-card-title">SNACK SMART</h3>
+                                        </a>
+                                    </article>
+
+                                    <article class="project-card">
+                                        <a
+                                            href="https://www.canva.com/design/DAGoJePeKkU/VGId_RUz20lwMuxaegaexg/edit?utm_content=DAGoJePeKkU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                                            <div class="project-img-wrapper">
+                                                <img src="images/Kenaikan Isa Almasih.png" alt="Kenaikan Isa Almasih"
+                                                    class="project-card-img" draggable="false">
+                                            </div>
+                                            <h3 class="project-card-title">Kenaikan Isa Almasih</h3>
+                                        </a>
+                                    </article>
+
+                                    <article class="project-card">
+                                        <div class="project-img-wrapper">
+                                            <img src="images/Design Hero Section.png" alt="Design Hero Section"
+                                                class="project-card-img" draggable="false">
+                                        </div>
+                                        <h3 class="project-card-title">Design Hero Section</h3>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <p class="footer-credit">Create by <a href="">arisdwii</a> 😎</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
