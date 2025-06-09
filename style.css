@@ -323,6 +323,7 @@ main {
   margin-top: 1rem;
   font-size: 1.25rem;
   transition: 0.3s;
+  text-transform: capitalize;
 }
 
 .project-card:hover .project-card-title {
