@@ -402,6 +402,11 @@ main {
   font-size: 1.25rem;
   transition: 0.3s;
   text-transform: capitalize;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .project-card:hover .project-card-title {
@@ -462,8 +467,7 @@ footer {
 @media (min-width: 500px) {
   .projects-items {
     grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
-    row-gap: 6rem;
+    column-gap: 3rem;
   }
 
   .project-card-title {
